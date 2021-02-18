@@ -1,6 +1,11 @@
 # VoteChain
 
-# Abstract
+## TODO
+* add readme sections for blockchain.h, common.h, hash.h
+* modify common/findHash() to be able to find nonce for any difficulty
+* p2p adjustable difficulty updated to the power of the network
+
+## Abstract
 
 An online voting system, that uses blockchain to ensure the security and transparency of the election being made using it.
 
@@ -18,6 +23,10 @@ A block is a chunk of data. Each block has in it an index, the hash of a previou
 A block contains a given number of vote actions. Each vote action needs to be signed by the voters.
 
 ### BlockChain
+
+### Hash
+
+### Common
 
 ## More to come
 
